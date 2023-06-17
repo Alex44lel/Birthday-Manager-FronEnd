@@ -3,6 +3,7 @@ import './css/style.css'
 import { Inter, Architects_Daughter } from 'next/font/google'
 
 import Header from '@/components/ui/header'
+import Footer from '@/components/ui/footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,13 +32,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+
+     <html lang="en">
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-[#F9F7F7] text-[#112D4E] tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
         </div>
+        <Footer></Footer>
       </body>
     </html>
   )
+   
 }
  

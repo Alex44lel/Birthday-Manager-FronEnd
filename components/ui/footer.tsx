@@ -30,8 +30,22 @@ export default function Footer() {
 
             
             {/* Copyrights note */}
-            <div className="text-gray-600 text-sm mr-4">&copy; Alejandro Cañada. All rights reserved.</div>
+            <div className="text-gray-600 text-sm mr-4">&copy; <Link href="https://github.com/Alex44lel"><b className=' underline'>Alejandro Cañada.</b></Link> All rights reserved.</div>
 
+          </div>
+          <div className="flex flex-col  items-center  pt-8 text-gray-600 ">
+              <div className="mt-2">
+              <Link href="privacy-policy">Privacy policy</Link>
+
+              </div>
+              <div  className="mt-2">
+              <Link href="terms-of-service">Terms of service</Link>
+
+              </div>
+              <div  className="mt-2">
+              <Link href="support">Contact me</Link>
+
+              </div>
           </div>
         </div>
       </div>
