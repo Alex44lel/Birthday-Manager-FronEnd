@@ -28,10 +28,10 @@ export default function Hero() {
             <h2 className="text-xl text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="200">Birthday reminder app for Google Calendar</h2>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-[#3F72AF] hover:bg-[#145aae] w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get free template</a>
+                <a className="btn text-white bg-[#3F72AF] hover:bg-[#145aae] w-full mb-4 sm:w-auto sm:mb-0" href="https://docs.google.com/spreadsheets/d/1MvsmXvQSEEZyLI6NMjjpLTc3OhxTTX7ISwssJ6mDMCM/copy">Get free template</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Donate</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://docs.google.com/spreadsheets/d/1MvsmXvQSEEZyLI6NMjjpLTc3OhxTTX7ISwssJ6mDMCM/copy">Donate</a>
               </div>
             </div>
           </div>

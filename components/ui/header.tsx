@@ -27,7 +27,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="btn-sm text-white bg-[#3F72AF] hover:bg-[#145aae] ml-3">
+                <Link href="https://docs.google.com/spreadsheets/d/1MvsmXvQSEEZyLI6NMjjpLTc3OhxTTX7ISwssJ6mDMCM/copy" className="btn-sm text-white bg-[#3F72AF] hover:bg-[#145aae] ml-3">
                   Get template
                 </Link>
               </li>

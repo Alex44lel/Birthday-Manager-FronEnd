@@ -67,7 +67,7 @@ export default function MobileMenu() {
           </li>
           <li>
             <Link
-              href="/"
+              href="https://docs.google.com/spreadsheets/d/1MvsmXvQSEEZyLI6NMjjpLTc3OhxTTX7ISwssJ6mDMCM/copy"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-[#3F72AF] hover:bg-[#145aae] transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
               Get template
