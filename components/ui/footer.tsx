@@ -43,6 +43,10 @@ export default function Footer() {
 
               </div>
               <div  className="mt-2">
+              <Link href="limited-use-disclosure">Limited use disclosure</Link>
+
+              </div>
+              <div  className="mt-2">
               <Link href="support">Contact me</Link>
 
               </div>
