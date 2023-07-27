@@ -60,14 +60,14 @@ export default function MobileMenu() {
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
         <ul className="bg-gray-400 px-4 py-2">
-          <li>
+          {/* <li>
             <Link href="/" className="flex font-medium w-full text-gray-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Donate
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
-              href="https://docs.google.com/spreadsheets/d/1MvsmXvQSEEZyLI6NMjjpLTc3OhxTTX7ISwssJ6mDMCM/copy"
+              href="https://docs.google.com/spreadsheets/d/1rVcA1u6b9XZOGig9pBX4JkCox5ApDK4nAhP5d3vqjSI/copy"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-[#3F72AF] hover:bg-[#145aae] transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
               Get template

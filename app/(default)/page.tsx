@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Home - Birthday Manager',
-  description: 'Effortlessly manage birthdays with Birthday Manager, a Google Sheets add on. It offers centralized tracking, personalized events, and automated reminders. Instantly updates to Google Calendar for seamless management',
+  description: 'Birthday reminders with google sheets and google calendar',
   robots:'index',
   viewport:'width=device-width, initial-scale=1.0',
   charset:'UTF-8'

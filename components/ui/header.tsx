@@ -18,16 +18,16 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link
                   href="/"
                   className="font-medium text-gray-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Donate
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="https://docs.google.com/spreadsheets/d/1MvsmXvQSEEZyLI6NMjjpLTc3OhxTTX7ISwssJ6mDMCM/copy" className="btn-sm text-white bg-[#3F72AF] hover:bg-[#145aae] ml-3">
+                <Link href="https://docs.google.com/spreadsheets/d/1rVcA1u6b9XZOGig9pBX4JkCox5ApDK4nAhP5d3vqjSI/copy" className="btn-sm text-white bg-[#3F72AF] hover:bg-[#145aae] ml-3">
                   Get template
                 </Link>
               </li>
